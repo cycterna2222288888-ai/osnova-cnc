@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="245 315 265 195" role="img" aria-labelledby="machine-title machine-desc"><title id="machine-title">Схема четырёхосевого фрезерного станка</title><desc id="machine-desc">Изометрическая иллюстрация портального станка с рабочим столом, шпинделем и поворотной осью. Условная схема, не чертёж конкретной модели.</desc>
+<defs><pattern id="grid" width="45" height="26" patternUnits="userSpaceOnUse" patternTransform="translate(0 35)"><path d="M0 13L22.5 0 45 13 22.5 26Z" fill="none" stroke="#1A1A1A" stroke-opacity=".08" stroke-width=".7"/></pattern><pattern id="ribs" width="9" height="9" patternUnits="userSpaceOnUse"><path d="M0 0v9" stroke="#F8F7F4" stroke-opacity=".3" stroke-width="2"/></pattern><marker id="arrow" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto-start-reverse"><path d="M0 0L6 3 0 6" fill="none" stroke="#1A1A1A"/></marker></defs>
+<path d="M15 435L380 220 745 435 380 650Z" fill="url(#grid)"/>
+<g stroke="#1A1A1A" stroke-linejoin="round" stroke-width="1.5">
+<!-- feet -->
+<path d="M157 486v56l37 21 30-18v-54M542 474v62l36 21 30-18v-57M347 573v44l35 20 29-17v-46" fill="#1A1A1A"/>
+<!-- cast base -->
+<path d="M120 417L399 256 656 404 377 568Z" fill="#deddd9"/><path d="M120 417v71l257 149v-69Z" fill="#b8b7b2"/><path d="M377 568l279-164v73L377 637Z" fill="#7e7d78"/><path d="M140 435l237 137 259-150v13L377 587 140 450Z" fill="#1A1A1A"/>
+<!-- workbed -->
+<path d="M163 401L403 262 615 385 376 524Z" fill="#F8F7F4"/>
+<g stroke-width="6" stroke="#7e7d78"><path d="M185 414l239-138M211 429l239-138M237 444l239-138M263 459l239-138M289 474l239-138M315 489l239-138M341 504l239-138"/></g>
+<!-- left column -->
+<path d="M132 402V177l60-35 63 36v228l-59 35Z" fill="#b8b7b2"/><path d="M132 177l64 37v227l-64-39Z" fill="#deddd9"/><path d="M196 214l59-36v228l-59 35Z" fill="#7e7d78"/>
+<!-- rear column -->
+<path d="M487 221V80l62-36 62 36v225l-61 35-63-36Z" fill="#b8b7b2"/><path d="M549 115l62-35v225l-61 35Z" fill="#7e7d78"/>
+<!-- gantry -->
+<path d="M132 177L487-28l124 72-355 205Z" transform="translate(0 60)" fill="#F8F7F4"/><path d="M132 237v-60L487-28v60Z" transform="translate(0 60)" fill="#deddd9"/><path d="M256 249L611 44v89L256 338Z" transform="translate(0 60)" fill="#b8b7b2"/>
+<path d="M270 312L596 124v29L270 341Z" fill="#1A1A1A"/><path d="M271 318L594 132" stroke="#F8F7F4" stroke-width="3"/>
+<path d="M270 350L596 162v14L270 364Z" fill="#7e7d78"/>
+<!-- carriage -->
+<path d="M357 245l84-49 51 30-84 49Z" fill="#F8F7F4"/><path d="M357 245v112l51 30V275Z" fill="#deddd9"/><path d="M408 275l84-49v111l-84 50Z" fill="#7e7d78"/><path d="M418 285l62-36v74l-62 36Z" fill="#1A1A1A"/><path d="M427 287l44-25v55l-44 26Z" fill="url(#ribs)"/>
+<!-- spindle -->
+<path d="M370 335l33-19 29 17v67l-32 19-30-17Z" fill="#F8F7F4"/><path d="M400 352l32-19v67l-32 19Z" fill="#b8b7b2"/><path d="M380 403v20l20 11 20-11v-20l-20 12Z" fill="#1A1A1A"/><path d="M400 433v22" stroke-width="5"/>
+<!-- fourth axis mount -->
+<path d="M247 417l56-33 52 30v36l-56 33-52-30Z" fill="#7e7d78"/><path d="M247 417l52 30 56-33-52-30Z" fill="#deddd9"/>
+<path d="M273 414v-53l36-21 32 19v55l-35 21Z" fill="#b8b7b2"/><ellipse cx="320" cy="382" rx="24" ry="35" transform="rotate(-28 320 382)" fill="#1A1A1A"/><ellipse cx="328" cy="384" rx="17" ry="27" transform="rotate(-28 328 384)" fill="#deddd9"/>
+<!-- stock -->
+<path d="M331 363l112 65-3 30-20 12-112-65Z" fill="#F8F7F4"/><path d="M331 363l112 65-20 12-112-65Z" fill="#deddd9"/><path d="M423 440l20-12-3 30-20 12Z" fill="#b8b7b2"/>
+<!-- tailstock -->
+<path d="M441 471v-41l28-16 25 15v44l-29 17Z" fill="#b8b7b2"/><path d="M441 430l24 14 29-15M465 444v46" fill="none"/>
+<g fill="#1A1A1A" stroke="none"><circle cx="148" cy="273" r="3"/><circle cx="148" cy="382" r="3"/><circle cx="181" cy="292" r="3"/><circle cx="181" cy="405" r="3"/></g>
+</g>
+<g class="linear-axis" fill="none" stroke="#1A1A1A" stroke-width="1.5" marker-end="url(#arrow)"><path d="M546 365l110-64"/><path d="M546 365v-110"/><path d="M546 365l83 48"/></g>
+<g class="linear-axis" fill="#1A1A1A" font-size="17" font-family="monospace"><text x="665" y="302">X</text><text x="539" y="242">Z</text><text x="638" y="424">Y</text></g>
+<g class="rotary-axis"><path d="M367 398c-9-37 12-47 35-24s27 59 8 60" fill="none" stroke="#1A1A1A" stroke-width="2" marker-end="url(#arrow)"/><text x="399" y="365" fill="#1A1A1A" font-size="20" font-family="monospace">A</text></g>
+<g fill="none" stroke="#1A1A1A" stroke-width=".8"><path d="M323 383L224 329H54"/><circle cx="323" cy="383" r="4" fill="#F8F7F4"/><path d="M395 339l120-69h163"/><circle cx="395" cy="339" r="4" fill="#F8F7F4"/></g><g fill="#1A1A1A" font-family="monospace" font-size="12"><text x="54" y="316">Поворотная ось</text><text x="554" y="258">Шпиндель</text></g>
+</svg>
